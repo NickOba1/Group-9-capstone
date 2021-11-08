@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./stylesheet/style.css">
+  <title>Frontend Mentor | Order summary card</title>
+
+</head>
+<style>
+  body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position:auto;
+    background-size: 100% auto;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+   
+  }
+   @media  screen and (max-width:375px) {
+    body{
+      background-image: url("images/pattern-background-mobile.svg");
+     background-color:hsl(225, 100%, 94%);
+     background-size:auto;
+    }
+  }
+  
+  </style>
+
+<body> 
+  
+<div id="sum-card">
+  <div id="image">
+    <img src="images/illustration-hero.svg" alt="illustration picture of someone holding a phone and listening to music with a headphone playing ">
+  </div>
+  <header>
+ <h1> Order Summary</h1>
+</header>
+
+ <p id="info"> You can now listen to millions of songs,<br> audiobooks, and podcasts on any 
+  device <br> anywhere you like!
+</p>
+
+<section id="annual">
+  <div id="icon">
+    <img  src="images/icon-music.svg" alt="music icon" >
+  </div>
+ <div id="annual-info">
+   <span id="plan-text"> Annual Plan</span>
+   <br> <span id="price">$59.99/year</span>
+ </div>
+
+  <button id="change-button">Change</button> 
+</section>
+
+
+<div id="pay"><button id="payment-button">Proceed to Payment</button></div>
+
+  <button id="cancel-button">Cancel Order</button>
+   <footer>
+  <div id="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Group 9</a>.
+  </div>
+  </footer>
+  </div>
+</body>
+</html>

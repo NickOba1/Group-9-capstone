@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:auto
+}
+body{
+font-family:'Red Hat Display' , sans-serif;
+padding: 70px 0;
+margin: auto;
+width: 100vw;
+height: 100vh;
+
+}
+header{
+    text-align: center;
+    color:hsl(223, 47%, 23%) ;
+    font-weight:700;
+    font-size: small;
+}
+
+h1 {
+    margin-top: 25px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+    border-radius:20px 20px 0px 0px;
+}
+#image{
+    width:440px;
+    
+}
+
+#sum-card{
+   
+    background-color:white;
+   width:440px;
+  border-radius: 20px;
+  height: 680px;
+  padding:auto;
+
+}
+
+#info{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(135,140,160);
+    font-size: 16px;
+    word-spacing: 2px;
+}
+
+#icon{
+
+    width:48px;
+    height:48px;
+}
+
+#annual{
+    margin-top: 15px;
+display: flex;
+ background-color:rgba(243, 245, 247, 0.864);
+ margin:25px;
+ display: flex;
+ gap: 10px;
+ padding:30px 30px 30px 20px ;
+ border-radius: 15px;
+}
+#plan-text{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+}
+
+#price{
+    color: rgb(135,140,160);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#change-button{
+    font-family: 'Red Hat Display' , sans-serif;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: rgb(56,42,255);
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+#change-button:hover{
+    cursor: pointer;
+    color:rgb(114, 130, 196);
+    text-decoration: none;
+}
+ 
+#payment-button{
+    display: block;
+    margin-bottom:10px ;
+    background-color:rgb(56,42,255);
+    color:#fff;
+    border-radius: 12px;
+    border-color: transparent;
+    width:80%;
+    padding:3%;
+    font-family:'Red Hat Display' , sans-serif;
+    font-weight: 800;
+    box-shadow:0px 15px 10px rgb(228, 225, 250);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+#payment-button:hover{
+    cursor: pointer;
+    background-color:rgb(118, 108,241);
+    font-size:15px;
+}
+
+#cancel-button{
+    display:block;
+    margin-top:10%;
+    border: none;
+    font-family:'Red Hat Display' , sans-serif;
+    background-color: transparent;
+    color:hsl(224, 23%, 55%);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 5px;  
+}
+#cancel-button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:hsl(223, 47%, 23%) ;
+}
+
+footer{
+margin: 30px auto;
+padding: auto;
+width: auto;
+}
+
+#attribution{
+    font-size: small;
+    text-align: center;
+    font-weight:400;
+    color:hsl(224, 23%, 55%); 
+    margin-top: 100px;
+}
+    
+
+
